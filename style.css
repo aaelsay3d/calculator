@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button{
+    border: 1px solid black;
+}
+
+.calculator-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.display-area{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+    font-weight: bold;
+    font-size: 36px;
+    border: 1px solid black;
+}
+
+.digits-and-operators{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.digit, .operator, .clear-button, .equal-button{
+    height: 125px;
+    width: 100px;
+}
